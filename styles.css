@@ -1,0 +1,97 @@
+:root {
+    --primary-theme: #202020;
+    --section-bg: white;
+}
+
+body {
+    margin: 0;
+    background-color: var(--primary-theme);
+}
+
+.container {
+    padding: 0rem 0rem;
+}
+
+.container-center {
+    margin: auto;
+    max-width: 1140px;
+}
+
+.navigation {
+    display: flex;
+    color: white;
+    position: fixed;
+    width: 100vw;
+    right: 0px;
+    left: 0px;
+    background-color: var(--primary-theme);
+
+}
+
+.navigation .navigation-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    color: #DC143C;
+}
+
+nav .nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.list-item-bullet {
+    list-style: none;
+    padding: 0rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: var(--primary-theme);
+}
+
+.title-container h1 {
+    font-size: 3rem;
+    padding: 10px 0px;
+}
+
+.intro-heading {
+    padding: 10px 0px;
+    font-size: 2rem;
+
+}
+
+.section-full {
+    top: 50%;
+    height: 100vh;
+    width: 100%;
+}
+
+.section-about {
+    background-color: var(--section-bg);
+}
+
+.section-work {
+    color: white;
+}
