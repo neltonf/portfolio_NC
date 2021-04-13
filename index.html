@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -16,35 +19,131 @@
             <ul class="list-item-bullet">
                 <li class="link"><a class="link-active" href="#About-me">About</a></li>
                 <li class="link"><a href="#Work">Work</a></li>
-                <li class="link"><a href="/">Contact Me</a></li>
+                <li class="link"><a href="#Contact">Contact Me</a></li>
             </ul>
         </div>
     </nav>
     <section class="container title-container">
         <h1>I'm Nelton Fernandes</h1> <br>
         <div class="intro-heading">This is my official website to showcase my all works related to web development and UI design.</div>
-    </section class="container section-about">
+    </section>
+
     <section id="About-me" class="section-full section-about">
-        This about me
+        <div class="container-center">
+            <div class="about-card">
+                <div class="about-profile">
+                    <img src="images/face.png" alt="">
+                </div>
+                <div class="info-about">
+                    <div class="info-header">
+                        <h1>
+                            About Me
+                        </h1>
+                    </div>
+                    <div class="info-body">
+                        I'm a Stanford class of 2020 undergraduate majoring in Biomedical Computation, and coterming in Computer Science AI Track.
+                        My primary interest lies in using computation and visualization of computer
+                        programming to solve challenges in precision health.
+                        <br><br>
+                        I'm a Stanford class of 2020 undergraduate majoring in Biomedical Computation, and coterming in Computer Science AI Track.
+                        My primary interest lies in using computation and visualization of computer
+                        programming to solve challenges in precision health.
+
+                    </div>
+                    <div class="info-header">
+                        <h1>
+                            Skills
+                        </h1>
+                    </div>
+                    <div class="info-font">
+                        <i title="HTML" class="fab fa-2x fa-html5"></i>
+                        <i title="CSS" class="fab fa-2x fa-css3"></i>
+                        <i title="Bootstrap4" class="fab fa-2x fa-bootstrap"></i>
+                        <i title="JS" class="fab fa-2x fa-js"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="Work" class="section-full section-work">
         <div class="work-section-div">
             <div class="container-center">
                 <div class="work-row">
                     <div class="work-row-box">
-
+                        <a href="https://github.com/neltonf/liftsafe" target="_blank" rel="noopener noreferrer">
+                            <img class="work-row-box-img" src="images/arduino.jpg" alt="">
+                        </a>
+                        <br>
+                        <h1>LiftSafe</h1>
+                        <p>
+                            IoT based device which detects presence of human during lift failure
+                        </p>
                     </div>
                     <div class="work-row-box">
-
+                        <a href="https://github.com/neltonf/BOMA" target="_blank">
+                            <img class="work-row-box-img" src="images/WhatsApp.svg" alt=""></a>
+                        <br>
+                        <h1>Messaging App</h1>
+                        <p>
+                            Android app developed using Flutter framework.
+                        </p>
                     </div>
                     <div class="work-row-box">
+                        <a href="https://github.com/neltonf/Bill-generator" target="_blank">
+                            <img class="work-row-box-img" src="images/bill.png" alt="">
+                        </a>
+                        <br>
+                        <h1>Bill Generator</h1>
+                        <p>
+                            Generation of bill using the amount of electricity used
+
+                        </p>
 
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <hr>
+    <footer id="Contact" class="container-center">
+        <div>
+            <h1>Contact Me!</h1>
+        </div>
+        <div>
+            <form class="contact-form" action="mailto:neltonfernandes@gmail.com?subject=Message from portfolio!" enctype="text/plain" method="post">
+                <label for="name">Name</label>
+                <input class="input-form" type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input class="input-form" type="text" name="email" id="email">
+                <label for="phone">Phone Number</label>
+                <input class="input-form" type="text" name="phone" id="phone">
+                <label for="message">Message</label>
+                <textarea class="input-form" type="text" name="message" id="message"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+
+            </form>
+        </div>
+        <div class="fonts-icon">
+            <a href="https://github.com/neltonf" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/neltonfernandes/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nelton-fernandes-19122111a/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/Nelton_F" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+        </div>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/02396c31bb.js" crossorigin="anonymous"></script>
 
 </body>
 
 </html>
+
+<!-- 978870 -->
