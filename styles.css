@@ -70,7 +70,7 @@ Navigation BAR
     color: white;
   }
 
-@media (min-width:400px){
+@media screen and (min-width:600px){
   .navigation .navigation-flex {
     width: 1140px;
   }
@@ -93,7 +93,7 @@ Navigation BAR
   font-size: 2rem;
 }
 
-@media (min-width: 400px) {
+@media screen and (min-width:600px) {
   
   .title-container h1 {
     font-size: 3rem;
@@ -129,7 +129,7 @@ SECTION ABOUT
   text-align: center;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width:600px) {
 
 .section-about {
     display: flex !important ;
@@ -164,7 +164,7 @@ SECTION ABOUT
     margin-right: 20px;;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width:600px) {
   .about-card {
     display: flex;
     flex-direction: row;
@@ -251,7 +251,7 @@ SECTION WORK
     color:var(--highlight-red);
   }
 
-@media (min-width:400px) {
+@media screen and (min-width:600px) {
   
   .section-work {
     color: black;
