@@ -36,16 +36,12 @@ Navigation BAR
     color: white;
     position: fixed;
     width: 100vw;
-    right: 0px;
-    left: 0px;
+    max-height: 50px;
     background-color: var(--primary-theme);
-  }
-  .navigation .navigation-flex {
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vh;
   }
+
   .navigation .link-active {
     font-weight: bold;
     color: var(--highlight-red);
@@ -70,11 +66,77 @@ Navigation BAR
     color: white;
   }
 
+@media screen and (max-width: 1081px) {
+  .navigation .list-item-bullet{
+    display: none;
+  }
+    .navigation a.icon {
+    float: right;
+    display: block;
+  }
+  .navigation.responsive {
+    display: block;
+    position: fixed;
+    height:200px;
+  }
+
+  .navigation.responsive span{
+    height: 100%;
+  }
+
+  .navigation.responsive .nav-brand{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .navigation.responsive a.icon {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+
+  }
+  .navigation.responsive .list-item-bullet {
+    float: none;
+    display: block;
+    position: relative;
+    text-align: left;
+    background: var(--primary-theme);
+    margin: 0px;
+  }
+
+  .navigation.responsive .list-item-bullet .link{
+    height: 40px;
+    padding:5px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+}
+
+
+  
+
 @media screen and (min-width:1081px){
+
+  .navigation {
+    display: flex;
+    color: white;
+    position: fixed;
+    width: 100vw;
+    max-height: 50px;
+    background-color: var(--primary-theme);
+    align-items: center;
+    justify-content: space-around;
+  }
+
   .navigation .navigation-flex {
     width: 1140px;
   }
 
+  nav .icon {
+    display:none;
+  }
 }
 /* title-section */
 
@@ -122,9 +184,13 @@ SECTION ABOUT
 
 .about-profile{
   display: flex;
-  justify-content: center;
+  height: 30%;
+  align-items: center;
 }
-
+.about-profile img{
+  height: 300px;
+  width: 150px;
+}
 .info-header h1 {
   text-align: center;
 }
