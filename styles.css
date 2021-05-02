@@ -444,8 +444,9 @@ footer h1 {
 }
 
 #submit-btn {
-  background-color: var(--primary-theme);
-  border:1px var(--highlight-red) solid;
+  background-color: var(--highlight-red);
+  border:none;
+  border-radius:3rem;
   font-size:1rem;
   color: white;
   font-weight: bolder;
