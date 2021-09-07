@@ -1,193 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome!</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
 
     <script src="apps.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav id="myTopnav" class="navigation">
-        <div class="nav-brand">
-            <span style="color:#DC143C">i</span>amNelton
-        </div>
-        <ul class="list-item-bullet">
-            <li class="link"><a class="link-active" href="#About-me">About</a></li>
-            <li class="link"><a href="#Work">Work</a></li>
-            <li class="link"><a href="#Contact">Contact Me</a></li>
-        </ul>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+      <div class="nav-brand"><span style="color: #dc143c">i</span>amNelton</div>
+      <ul class="list-item-bullet">
+        <li class="link"><a class="link-active" href="#About-me">About</a></li>
+        <li class="link"><a href="#Work">Work</a></li>
+        <li class="link"><a href="#Contact">Contact Me</a></li>
+      </ul>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </nav>
     <section class="container title-container">
-        <h1>I'm Nelton Fernandes</h1> <br>
-        <div class="intro-heading">This is my official website to showcase all my work related to web development and UI design.</div>
+      <h1>I'm Nelton Fernandes</h1>
+      <br />
+      <div class="intro-heading">
+        This is my official website to showcase all my work related to web
+        development and UI design.
+      </div>
     </section>
 
     <section id="About-me" class="section-full section-about">
-        <div class="container-center">
-            <div class="about-card">
-                <div class="about-profile">
-                    <img src="images/face.png" alt="">
-                </div>
-                <div class="info-about">
-                    <div class="info-header">
-                        <h1>
-                            About Me
-                        </h1>
-                    </div>
-                    <div class="info-body">
-                        I'm a DBIT student class of 2021 undergraduate majoring in Information Technology, and coterming in Web Development.
-                        My primary interest lies in using computation and visualization of computer
-                        programming to solve challenges.
-
-                    </div>
-                    <div class="info-header">
-                        <h1>
-                            Skills
-                        </h1>
-                    </div>
-                    <div class="info-font">
-                        <i title="HTML" class="fab fa-2x fa-html5"></i>
-                        <i title="CSS" class="fab fa-2x fa-css3"></i>
-                        <i title="Bootstrap4" class="fab fa-2x fa-bootstrap"></i>
-                        <i title="JS" class="fab fa-2x fa-js"></i>
-                    </div>
-                </div>
+      <div class="container-center">
+        <div class="about-card">
+          <div class="about-profile">
+            <img src="images/face.png" alt="" />
+          </div>
+          <div class="info-about">
+            <div class="info-header">
+              <h1>About Me</h1>
             </div>
+            <div class="info-body">
+              I'm a DBIT student class of 2021 undergraduate majoring in
+              Information Technology, and coterming in Web Development. My
+              primary interest lies in using computation and visualization of
+              computer programming to solve challenges.
+            </div>
+            <div class="info-header">
+              <h1>Skills</h1>
+            </div>
+            <div class="info-font">
+              <i title="HTML" class="fab fa-2x fa-html5"></i>
+              <i title="CSS" class="fab fa-2x fa-css3"></i>
+              <i title="Bootstrap4" class="fab fa-2x fa-bootstrap"></i>
+              <i title="JS" class="fab fa-2x fa-js"></i>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section id="Work" class="section-full section-work">
-        <div class="work-section-div">
-            <div class="work-row container-center">
-                <div class="work-row-box">
-                    <img class="work-row-box-img" src="images/calculator.jpg" alt="">
-                    <br>
-                    <h1>Calculator</h1>
-                    <p>
-                        A Calculator App created entirely by Vanilla JavaScript. Learnt how to use Grid and functions in JS!!
-                    </p>
-                    <a href="https://neltonf.github.io/calculatorApp/" target="_blank">
-                        <input class="btn-1" type="button" value="Live Project">
-                    </a>
-                    <a href="https://github.com/neltonf/calculatorApp" target="_blank">
-                        <input class="btn-2" type="button" value="View Source">
-                    </a>
-                </div>
-                <div class="work-row-box">
-                    <img class="work-row-box-img" src="images/minion.bmp" alt="">
-                    <br>
-                    <h1>Banana Talk</h1>
-                    <p>
-                        Are you a fan of minions? Did you know that the gibberish they say is an actual language.
-                        Use the translator to convert your text from English to Minion speak or Banana language.
-                    </p>
-                    <a href="https://neltonf.github.io/minionese/" target="_blank">
-                        <input class="btn-1" type="button" value="Live Project">
-                    </a>
-                    <a href="https://github.com/neltonf/minionese" target="_blank">
-                        <input class="btn-2" type="button" value="View Source">
-                    </a>
-                </div>
-                <div class="work-row-box ">
-                    <img class="work-row-box-img" src="images/movie.bmp" alt="">
-                    <br>
-                    <h1>Movie Recommendation</h1>
-                    <p>
-                        React app that helps you to find movie.
-                    </p>
-                    <a href="https://neltonf.github.io/book-recommendation/" target="_blank">
-                        <input class="btn-1" type="button" value="Live Project">
-                    </a>
-                    <a href="https://github.com/neltonf/book-recommendation" target="_blank">
-                        <input class="btn-2" type="button" value="View Source">
-                    </a>
-                </div>
-            </div>
-            <div class="work-row container-center">
-                <div class="work-row-box">
-                    <img class="work-row-box-img" src="images/WhatsApp.svg" alt="">
-                    <br>
-                    <h1>Messaging App</h1>
-                    <p>
-                        Android app developed using JAVA.
-                    </p>
-                    <a href="https://github.com/neltonf/BOMA" target="_blank">
-                        <input class="btn-2" type="button" value="View Source">
-                    </a>
-                </div>
-                <div class="work-row-box">
-                    <img class="work-row-box-img" src="images/arduino.jpg" alt="">
-                    <br>
-                    <h1>LiftSafe</h1>
-                    <p>
-                        IoT based device which detects presence of human during lift failure
-                    </p>
-                    <a href="https://github.com/neltonf/liftsafe" target="_blank">
-                        <input class="btn-2" type="button" value="View Source">
-                    </a>
-                </div>
-                <div class="work-row-box">
-                    <img class="work-row-box-img" src="images/bill.png" alt="">
-                    <br>
-                    <h1>Bill Generator</h1>
-                    <p>
-                        Generation of bill using the amount of electricity used
-                    </p>
-                    <a href="https://github.com/neltonf/Bill-generator" target="_blank">
-                        <input class="btn-2" type="button" value="View Source">
-                    </a>
-                </div>
-            </div>
+      <div class="work-section-div">
+        <div class="work-row container-center">
+          <div class="work-row-box">
+            <img
+              class="work-row-box-img"
+              src="images/cash-register.png"
+              alt=""
+            />
+            <br />
+            <h1>Cash Register</h1>
+            <p>
+              This simple app tell how much amount to return after every
+              transaction.
+            </p>
+            <a
+              href="https://neltonf.github.io/NG-cashRegisterManager/"
+              target="_blank"
+            >
+              <input class="btn-1" type="button" value="Live Project" />
+            </a>
+            <a
+              href="https://github.com/neltonf/NG-cashRegisterManager"
+              target="_blank"
+            >
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
+          <div class="work-row-box">
+            <img
+              class="work-row-box-img"
+              src="images/color-flipper.jpg"
+              alt=""
+            />
+            <br />
+            <h1>Color Flipper</h1>
+            <p>Discove new hex color on the go!!</p>
+            <a href="https://neltonf.github.io/colorFlipper/" target="_blank">
+              <input class="btn-1" type="button" value="Live Project" />
+            </a>
+            <a href="https://github.com/neltonf/colorFlipper" target="_blank">
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
+          <div class="work-row-box">
+            <img class="work-row-box-img" src="images/counter.png" alt="" />
+            <br />
+            <h1>Counter</h1>
+            <p>A simple JS app used for counting.`</p>
+            <a href="https://neltonf.github.io/counter/" target="_blank">
+              <input class="btn-1" type="button" value="Live Project" />
+            </a>
+            <a href="https://github.com/neltonf/counter" target="_blank">
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
         </div>
+
+        <div class="work-row container-center">
+          <div class="work-row-box">
+            <img class="work-row-box-img" src="images/to-do-list.png" alt="" />
+            <br />
+            <h1>To-Do List</h1>
+            <p>
+              Have a task to complete? Set your task and be productive through
+              your day!!
+            </p>
+            <a href="https://neltonf.github.io/to-do-list/" target="_blank">
+              <input class="btn-1" type="button" value="Live Project" />
+            </a>
+            <a href="https://github.com/neltonf/to-do-list" target="_blank">
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
+          <div class="work-row-box">
+            <img class="work-row-box-img" src="images/calculator.jpg" alt="" />
+            <br />
+            <h1>Calculator</h1>
+            <p>
+              A Calculator App created entirely by Vanilla JavaScript. Learnt
+              how to use Grid and functions in JS!!
+            </p>
+            <a href="https://neltonf.github.io/calculatorApp/" target="_blank">
+              <input class="btn-1" type="button" value="Live Project" />
+            </a>
+            <a href="https://github.com/neltonf/calculatorApp" target="_blank">
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
+          <div class="work-row-box">
+            <img class="work-row-box-img" src="images/minion.bmp" alt="" />
+            <br />
+            <h1>Banana Talk</h1>
+            <p>
+              Are you a fan of minions? Did you know that the gibberish they say
+              is an actual language. Use the translator to convert your text
+              from English to Minion speak or Banana language.
+            </p>
+            <a href="https://neltonf.github.io/minionese/" target="_blank">
+              <input class="btn-1" type="button" value="Live Project" />
+            </a>
+            <a href="https://github.com/neltonf/minionese" target="_blank">
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
+        </div>
+        <div class="work-row container-center">
+          <div class="work-row-box">
+            <img class="work-row-box-img" src="images/movie.bmp" alt="" />
+            <br />
+            <h1>Movie Recommendation</h1>
+            <p>React app that helps you to find movie.</p>
+            <a
+              href="https://neltonf.github.io/book-recommendation/"
+              target="_blank"
+            >
+              <input class="btn-1" type="button" value="Live Project" />
+            </a>
+            <a
+              href="https://github.com/neltonf/book-recommendation"
+              target="_blank"
+            >
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
+          <div class="work-row-box">
+            <img class="work-row-box-img" src="images/WhatsApp.svg" alt="" />
+            <br />
+            <h1>Messaging App</h1>
+            <p>Android app developed using JAVA.</p>
+            <a href="https://github.com/neltonf/BOMA" target="_blank">
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
+          <div class="work-row-box">
+            <img class="work-row-box-img" src="images/arduino.jpg" alt="" />
+            <br />
+            <h1>LiftSafe</h1>
+            <p>
+              IoT based device which detects presence of human during lift
+              failure
+            </p>
+            <a href="https://github.com/neltonf/liftsafe" target="_blank">
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
+        </div>
+        <div class="work-row container-center">
+          <div class="work-row-box">
+            <img class="work-row-box-img" src="images/bill.png" alt="" />
+            <br />
+            <h1>Bill Generator</h1>
+            <p>Generation of bill using the amount of electricity used</p>
+            <a href="https://github.com/neltonf/Bill-generator" target="_blank">
+              <input class="btn-2" type="button" value="View Source" />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-    <hr>
+    <hr />
     <footer id="Contact" class="container-center">
-        <div>
-            <h1>Contact Me!</h1>
-        </div>
-        <div>
-            <form class="contact-form container-center" action="mailto:neltonfernandes@gmail.com?subject=Message from portfolio!" enctype="text/plain" method="post">
-                <label for="name">Name</label>
-                <input class="input-form" type="text" name="name" id="name">
-                <label for="email">Email</label>
-                <input class="input-form" type="text" name="email" id="email">
-                <label for="phone">Phone Number</label>
-                <input class="input-form" type="text" name="phone" id="phone">
-                <label for="message">Message</label>
-                <textarea class="input-form" type="text" name="message" id="message"></textarea>
+      <div>
+        <h1>Contact Me!</h1>
+      </div>
+      <div>
+        <form
+          class="contact-form container-center"
+          action="mailto:neltonfernandes@gmail.com?subject=Message from portfolio!"
+          enctype="text/plain"
+          method="post"
+        >
+          <label for="name">Name</label>
+          <input class="input-form" type="text" name="name" id="name" />
+          <label for="email">Email</label>
+          <input class="input-form" type="text" name="email" id="email" />
+          <label for="phone">Phone Number</label>
+          <input class="input-form" type="text" name="phone" id="phone" />
+          <label for="message">Message</label>
+          <textarea
+            class="input-form"
+            type="text"
+            name="message"
+            id="message"
+          ></textarea>
 
-                <input id="submit-btn" type="submit" value="Send">
-
-            </form>
-        </div>
-        <div class="fonts-icon">
-            <a href="https://github.com/neltonf" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
-            <a href="https://www.instagram.com/neltonfernandes/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-instagram fa-2x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/nelton-fernandes-19122111a/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-linkedin-in fa-2x"></i>
-            </a>
-            <a href="https://twitter.com/Nelton_F" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-twitter fa-2x"></i>
-            </a>
-        </div>
-
+          <input id="submit-btn" type="submit" value="Send" />
+        </form>
+      </div>
+      <div class="fonts-icon">
+        <a
+          href="https://github.com/neltonf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/neltonfernandes/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nelton-fernandes-19122111a/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-linkedin-in fa-2x"></i>
+        </a>
+        <a
+          href="https://twitter.com/Nelton_F"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+      </div>
     </footer>
-    <script src="https://kit.fontawesome.com/02396c31bb.js" crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/02396c31bb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
 
 <!-- 978870 -->
